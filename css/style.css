@@ -225,6 +225,7 @@ body {
 	width: 260px;
 	color: #000000;
 	font-size: 16px;
+	z-index: 2;
 }
 .nails-block__text:before {
 	position: absolute;
