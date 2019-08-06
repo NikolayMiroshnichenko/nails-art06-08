@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Салон красоты Чернигов | Маникюр | Педикюр | «Nails Art»</title>
+		<meta name="description" content="Студия ногтевого сервиса в центре Чернигова | Маникюр и педикюр | Брови и ресницы | Массаж, макияж и прическа | Услуги в 4 руки | Запись: +38 (096) 111 000 9">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+		<link  rel = "stylesheet "  href = "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/tiny-slider.css ">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/media.css">
+	</head>
+	<body class="container-max">
+		<header class="header container">
+			<div class="menu-icon">
+				<div class="icon"></div>
+				<span class="menu">menu</span>
+			</div>
+			<div class="working-hours">
+				<p class="working-hours__item">пн-вс:</p>
+				<p class="working-hours__time">09:00 - 20 : 00</p>
+			</div>
+			<div class="mobill-icon"></div>
+			<div class="header-contact">
+				<p class="header-contact__item">Запись:</p>
+				<p class="header-contact__number">+38 (096) 111 000 9</p>
+			</div>
+			<nav class="navigation" id="nav">
+				<a href="index.html#servicesClick" class="navigation-item">Услуги</a>
+				<a href="index.html#work" class="navigation-item">Работы</a>
+				<a href="index.html#masters" class="navigation-item">Мастера</a>
+				<a href="index.html#contacts" class="navigation-item">Контакты</a>
+			</nav>
+		</header>
+		<section class="main container">
+			<div class="wrapper">
+				<h1 class="title-wrapper">nails art</h1>
+				<p class="wrapper-text">Студия красоты</p>
+				<p class="wrapper-disckription">—  Место где нежность превращается в искуство —</p>
+				<a href="index.html#servicesClick" class="main-btn">Услуги</a>
+				<a href="#" class="icon-facebook"></a>
+				<a href="https://instagram.com/nailsart096_?igshid=1au7gglyaepju" target="_blank" class="icon-instagram"></a>
+			</div>
+			<div class="wrapper-img"></div>
+		</section>
+		<section class="nails-art">
+			<h2 class="nails-art__title container">nails art</h2>
+			<p class="nails-art__text container">Место где нежность<br>превращается в искусство</p>
+			<div class="nails-block">
+				<p class="nails-block__text">Качественные услуги индустрии красоты, оказываемые в условиях максимального комфорта для клиента.</p>
+				<a href="index.html#maps" class="nails-btn">Как добраться</a>
+				<div class="welcom"></div>
+			</div>
+			<iframe class="nails-img" height="auto" src="https://www.youtube.com/embed/16_mtjkFEks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<p class="nails-addres">Сережникова 7</p>
+			<p class="nails-strit">Улица</p>
+		</section>
+		<section class="services" id="servicesClick">
+			<h2 class="services-title">Прейскурант на услуги<span>  в студии nails art</span></h2>
+			<div class="services-list">
+				<div class="services-mobill">Услуги</div>
+				<div class="services-img" id="img-one">
+					<img src="img/services/1.jpg" class="services-img__item" alt="Маникюр женский" title="Маникюр женский">
+				</div>
+				<div class="services-img" id="img-two">
+					<img src="img/services/2.jpg" class="services-img__item" alt="Педикюр" title="Педикюр">
+				</div>
+				<div class="services-img" id="img-three">
+					<img src="img/services/3.jpg" class="services-img__item" alt="Брови и ресницы" title="Брови и ресницы">
+				</div>
+				<div class="services-img" id="img-four">
+					<img src="img/services/4.jpg" class="services-img__item" alt="Коррекция фигуры" title="Коррекция фигуры">
+				</div>
+				<div class="services-img" id="img-five">
+					<img src="img/services/5.jpg" class="services-img__item" alt="Массаж" title="Массаж">
+				</div>
+				<div class="services-img" id="img-six">
+					<img src="img/services/6.jpg" class="services-img__item" alt="Макияж, прически" title="Макияж, прически">
+				</div>
+				<div class="services-img" id="img-seven">
+					<img src="img/services/7.jpg" class="services-img__item" alt="Услуги в 4 руки" title="Услуги в 4 руки">
+				</div>
+				<div class="services-img" id="img-eight">
+					<img src="img/services/8.jpg" class="services-img__item" alt="Мужские улсуги" title="Мужские улсуги">
+				</div>
+				<div class="services-list__nails" id="servicesListNails">
+					<div class="services-btn">
+						<div class="services-btn__item"   onclick="viewDiv()" id="one-btn">
+							Маникюр женский
+							<span class="services-activ__line"  id="services-activ__one"></span>
+							<span class="services-activ__romb" id="romb-one"></span>
+						</div>
+						
+						<div class="services-btn__item" onclick="viewDiv2()" id="two-btn">
+							Педикюр
+							<span class="services-activ__line" id="services-activ__two"></span>
+							<span class="services-activ__romb" id="romb-two"></span>
+						</div>
+
+						<div class="services-btn__item"  onclick="viewDiv3()" id="three-btn">
+							Брови и ресницы
+							<span class="services-activ__line" id="services-activ__three"></span>
+							<span class="services-activ__romb" id="romb-three"></span>
+						</div>
+
+						<div class="services-btn__item" onclick="viewDiv4()" id="four-btn">
+							Коррекция фигуры
+							<span class="services-activ__line" id="services-activ__four"></span>
+							<span class="services-activ__romb" id="romb-four"></span>
+						</div>
+						<div class="services-btn__item"  onclick="viewDiv5()" id="five-btn">
+							Массаж
+							<span class="services-activ__line" id="services-activ__five"></span>
+							<span class="services-activ__romb" id="romb-five"></span>
+						</div>
+						<div class="services-btn__item" onclick="viewDiv6()" id="six-btn">
+							Макияж, прически
+							<span class="services-activ__line" id="services-activ__six"></span>
+							<span class="services-activ__romb" id="romb-six"></span>
+						</div>
+						<div class="services-btn__item"  onclick="viewDiv7()" id="seven-btn">
+							Услуги в 4 руки
+							<span class="services-activ__line" id="services-activ__seven"></span>
+							<span class="services-activ__romb" id="romb-seven"></span>
+						</div>
+						<div class="services-btn__item" onclick="viewDiv8()" id="eight-btn">
+							Мужские улсуги
+							<span class="services-activ__line" id="services-activ__eight"></span>
+							<span class="services-activ__romb" id="romb-eight"></span>
+						</div>
+					</div>
+				</div>
+				<div class="services-list__item">
+					<div class="services-block" id="open-one">
+						<div class="services-block__item">
+							<p class="services-block__text">Маникюр (все виды)</p>
+							<p class="price">150 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Снятие + Маникюр + Гель-лак</p>
+							<p class="price">330 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Снятие + Маникюр + Шеллак</p>
+							<p class="price">350 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Покрытие гель-лаком</p>
+							<p class="price">190 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Снятие гель-лака/шеллака</p>
+							<p class="price">120 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Покрытие лаком</p>
+							<p class="price">70 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Снятие лака</p>
+							<p class="price">30 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Покрытие шеллаком</p>
+							<p class="price">200 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Покрытие лаком Creative Play</p>
+							<p class="price">100 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Коррекция нарощенных</p>
+							<p class="price">400 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Ремонт 1-го ногтя</p>
+							<p class="price">от 40 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Снятие нарощенных ногтей</p>
+							<p class="price">145 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Укрепление гелем</p>
+							<p class="price">120 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Парафинотерапия рук</p>
+							<p class="price">130 грн</p>
+						</div>
+					</div>
+					<div class="services-block" id="open-two">
+						<div class="services-block__item">
+							<p class="services-block__text">Педикюр</p>
+							<p class="price">350 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Педикюр пальчики/стопа</p>
+							<p class="price">230 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Снятие + Педикюр + Гель-лак</p>
+							<p class="price">500 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Снятие + Педикюр + Шеллак</p>
+							<p class="price">520 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Снятие+Педикюр+Гель лак/Шеллак и Маникюр в 4 руки</p>
+							<p class="price">700 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Снятие+Педикюр+Шеллак и Маникюр в 4 руки</p>
+							<p class="price">720 грн</p>
+						</div>
+					</div>
+					<div class="services-block" id="open-three">
+						<div class="services-block__item">
+							<p class="services-block__text">Окрашивание ресниц краской</p>
+							<p class="price">140 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Окрашивание бровей краской</p>
+							<p class="price">140 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Коррекция + Окрашивание бровей</p>
+							<p class="price">180 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Коррекция восковыми полосками</p>
+							<p class="price">190 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Коррекция бровей пинцетом</p>
+							<p class="price">90 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Осветление бровей/ресниц</p>
+							<p class="price">150 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Ламинирование бровей (+ Окрашивание в ПОДАРОК)</p>
+							<p class="price">450 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Биозавивка ресниц</p>
+							<p class="price">400 грн</p>
+						</div>
+					</div>
+					<div class="services-block" id="open-four">
+						<div class="services-block__item">
+							<p class="services-block__text">«Кокон» минеральное (120 мин)</p>
+							<p class="price">500 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Дренажное бандажное (90 мин)</p>
+							<p class="price">530 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Антицеллюлитное бандажное (90 мин)</p>
+							<p class="price">530 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Виноградное (90 мин)</p>
+							<p class="price">450 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Водорослевое (90 мин)</p>
+							<p class="price">450 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Солевое (90 мин)</p>
+							<p class="price">400 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Экспресс-лифтинг (аппар.массаж + обертывание в ПОДАРОК) (90 мин)</p>
+							<p class="price">370 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Аппаратный вакуумно-роликовый массаж (30/60/90 мин)</p>
+							<p class="price">150/250/350 грн</p>
+						</div>
+					</div>
+					<div class="services-block" id="open-five">
+						<div class="services-block__item">
+							<p class="services-block__text">Шейно-воротниковой зоны (45 мин)</p>
+							<p class="price">190 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Немного воротниковый (30 мин)</p>
+							<p class="price"> 150 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Классический (60 мин)</p>
+							<p class="price">250 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Лимфодренажный (60 мин)</p>
+							<p class="price">250 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Антицеллюлитный (60 мин)</p>
+							<p class="price">250 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Оздоровительный при остеохондрозе (60 мин)</p>
+							<p class="price">250 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Общий</p>
+							<p class="price">350 грн</p>
+						</div>
+					</div>
+					<div class="services-block" id="open-six">
+						<div class="services-block__item">
+							<p class="services-block__text">Макияж обычный</p>
+							<p class="price">300 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Макияж вечерний</p>
+							<p class="price">350 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Макияж выпускной/свадебный</p>
+							<p class="price">400 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Причёска (в зависимости от длины волос и сложности)</p>
+							<p class="price">200-350 грн</p>
+						</div>
+					</div>
+					<div class="services-block" id="open-seven">
+						<div class="services-block__item">
+							<p class="services-block__text">Снятие + Педикюр+ Гель лак и Маникюр в 4 руки</p>
+							<p class="price">700 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Снятие + Педикюр + Шеллак и Маникюр в 4 руки</p>
+							<p class="price">720 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Маникюр + Педикюр в 4 руки</p>
+							<p class="price">670 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Маникюр + Педикюр (мужской) в 4 руки</p>
+							<p class="price">670 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Снятие + Маникюр + Гель-лак в 4 руки</p>
+							<p class="price">420 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Снятие + Маникюр + Шеллак в 4 руки</p>
+							<p class="price">440 грн</p>
+						</div>
+					</div>
+					<div class="services-block" id="open-eight">
+						<div class="services-block__item">
+							<p class="services-block__text">Маникюр</p>
+							<p class="price">170 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Педикюр</p>
+							<p class="price">450 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Маникюр + Педикюр в 4 руки</p>
+							<p class="price">670 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Парафинотерапия рук</p>
+							<p class="price">150 грн</p>
+						</div>
+						<div class="services-block__item">
+							<p class="services-block__text">Парафинотерапия ног</p>
+							<p class="price">200 грн</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="work-wrapper" id="work">
+			<div class="work">
+				<h2 class="work-title">Работы мастеров<br> в нашем Instagram</h2>
+				<p class="work-text">Заходи и смотри <span>@nailsart096</span></p>
+				<a href="https://instagram.com/nailsart096_?igshid=1au7gglyaepju" target="_blank" class="work-btn">Подробнее</a>
+				<div class="work-img"></div>
+				<div class="work-instagram"></div>
+			</div>
+		</section>
+		<section class="masters" id="masters">
+			<h2 class="masters-title">nails art<br><span>masters</span></h2>
+			<div class="masters-list container">
+				<div class="masters-list__item masters-list__one">
+					<img src="img/masters/1.jpg" class="masters-one__img" alt="Мастер маникюра/педикюра и брови/ресницы" title="Мастер маникюра/педикюра и брови/ресницы">
+					<p class="masters-list__neme">Виктория Воротнева</p>
+					<p class="masters-list__description description-one">(маникюра/педикюра и брови/ресницы)</p>
+				</div>
+				<div class="masters-list__item masters-list__two">
+					<img src="img/masters/2.jpg" class="masters-two__img" alt="Мастер маникюра/педикюра" title="Мастер маникюра/педикюра">
+					<p class="masters-list__neme">Елена Зинчук</p>
+					<p class="masters-list__description description-two">(маникюр/педикюр)</p>
+				</div>
+				<div class="masters-list__item masters-list__three">
+					<img src="img/masters/3.jpg" class="masters-three__img" alt="(Визаж - причёски и макияж)" title="(Визаж - причёски и макияж)">
+					<p class="masters-list__neme name-three">Алёна</p>
+					<p class="masters-list__description description-three">(Визаж - причёски и макияж)</p>
+				</div>
+				<div class="masters-list__item masters-list__four">
+					<img src="img/masters/4.jpg" class="masters-four__img" alt="Массажист/косметолог по телу" title="Массажист/косметолог по телу">
+					<p class="masters-list__neme">Ирина</p>
+					<p class="masters-list__description description-four">(Массажист/косметолог по телу)</p>
+				</div>
+				<div class="masters-list__item masters-list__five">
+					<img src="img/masters/5.jpg" class="masters-five__img" alt="Мастер маникюра/педикюра" title="Мастер маникюра/педикюра">
+					<p class="masters-list__neme name-five">Алёна Стеченко</p>
+					<p class="masters-list__description description-five">(маникюр/педикюр)</p>
+				</div>
+			</div>
+			<div class="slider-btn">
+				<div class="left">
+					<img src="img/slider/left.png" class="slider-img">
+				</div>
+				<div class="right">
+					<img src="img/slider/right.png" class="slider-img">
+				</div>
+			</div>
+			<div class="masters-fon"></div>
+			<div class="masters-logo"></div>
+		</section>
+		<section class="present-block">
+			<div class="present">
+				<div class="present-img"></div>
+				<h2 class="present-title">Сделайте приятный<br> подарок</h2>
+				<p class="present-text">На любые услуги в салоне nails art</p>
+				<a href="tel:0961110009" class="present-btn">ЗАКАЗАТЬ</a>
+			</div>
+			<div class="present-logo"></div>
+		</section>
+		<section class="value-block">
+			<h2 class="value-title container">Наши ценности<br> качество и комфорт</h2>
+			<div class="value">
+				<div class="value-item">
+					<div class="value-block__img">
+						<img src="img/value/1.png" class="value-item__img" alt="Студия красоты Nails-art" title="Студия красоты Nails-art">
+					</div>
+					<h3 class="value-item__title">Абсолютная<br> стерилизация</h3>
+					<p class="value-item__description">Дезинфекция и стерилизация инструментов и всех рабочих поверхностей.
+					Стерильный инструмент вскрывается при клиенте!</p>
+				</div>
+				<div class="value-item">
+					<div class="value-block__img">
+						<img src="img/value/2.png" class="value-item__img" alt="Студия красоты Nails-art" title="Студия красоты Nails-art">
+					</div>
+					<h3 class="value-item__title">Новое<br> оборудование</h3>
+					<p class="value-item__description">Мы используем лучшее стерилизационное оборудование - автоклав класса В.
+						Обеззараживаем воздух в помещении рециркулютором, что снижает риск заражения.
+					Профессиональный фрезер,кресло для педикюра  и кушетка для массажа,  управляемые с помощью электропульта.</p>
+				</div>
+				<div class="value-item">
+					<div class="value-block__img">
+						<img src="img/value/3.png" class="value-item__img" alt="Студия красоты Nails-art" title="Студия красоты Nails-art">
+					</div>
+					<h3 class="value-item__title">Качественые<br> расходники</h3>
+					<p class="value-item__description">Профессиональные, безопасные,  гипоаллергенные материалы и косметика, не противопоказаны при беременности и грудном вскармливании. CND, KOMILFO, Lutticke, RefectoCil производства Германия, Австрия, США.</p>
+				</div>
+				<div class="value-item">
+					<div class="value-block__img">
+						<img src="img/value/4.png" class="value-item__img" alt="Студия красоты Nails-art" title="Студия красоты Nails-art">
+					</div>
+					<h3 class="value-item__title">Экспресс Услуги</h3>
+					<p class="value-item__description">Лучшая возможность для экономии времени.
+						Прведите выгодно время в студии, сократив время в 2 раза, за счет<br>
+					"Услуги в 4 руки".</p>
+				</div>
+			</div>
+		</section>
+		<section class="contacts-block" id="contacts">
+			<h2 class="contacts-title">Контакты</h2>
+			<div class="contacts container">
+				<div class="contacts-items">
+					<img src="img/contacts/contackts-img.jpg" class="contacts-items__img" alt="Студия красоты Nails-art" title="Студия красоты Nails-art">
+					<div class="contacts-fon"></div>
+				</div>
+				<div class="contacts-items">
+					<div class="contacts-list">
+						<div class="contacts-list_item">
+							<img src="img/contacts/1.png" class="contacts-list__img contacts-list_one" alt="Студия красоты Nails-art" title="Студия красоты Nails-art">
+							<p class="contacts-list__text">+38 (096) 111 000 9</p>
+						</div>
+						<div class="contacts-list_item">
+							<img src="img/contacts/2.png" class="contacts-list__img contacts-list_two" alt="Студия красоты Nails-art" title="Студия красоты Nails-art">
+							<p class="contacts-list__text">г.Чернигов ул. Сережникова 7</p>
+						</div>
+						<div class="contacts-list_item">
+							<img src="img/contacts/3.png" class="contacts-list__img contacts-list_three" alt="Студия красоты Nails-art" title="Студия красоты Nails-art">
+							<p class="contacts-list__text">nailsart@gmail.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.1728638175!2d31.300585015339284!3d51.49169521967298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d548ee16bde91f%3A0x90bc8256d9a8321c!2z0YPQuy4g0KHQtdGA0LXQttC90LjQutC-0LLQsCwgNywg0KfQtdGA0L3QuNCz0L7Qsiwg0KfQtdGA0L3QuNCz0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAxNDAwMA!5e0!3m2!1sru!2sua!4v1558683420630!5m2!1sru!2sua" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<footer class="footer">
+			<div class="footer-block container">
+				<p class="footer-text">© 2018 NAILS ART</p>
+				<span class="footer-logo"></span>
+				<p class="footer-text">Designed by <span>IDEN</span></p>
+			</div>
+		</footer>
+		<a href="tel:0961110009" class="call-back">
+			<img src="img/call-back.png" class="call-back__img" alt="Студия красоты Nails-art" title="Студия красоты Nails-art">
+		</a>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="script/services.js"></script>
+		<script type="text/javascript" src="script/services-mobile.js"></script>
+		<script type="text/javascript" src="script/open-menu.js"></script>
+		<script type="text/javascript" src="script/main.js"></script>
+	</body>
+</html>
